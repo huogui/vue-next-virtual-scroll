@@ -7,9 +7,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1 class="msg">
-    {{ msg }}
-  </h1>
+  <div class="rl-virtual-scroll__wrapper">
+    virtual scroller
+  </div>
 </template>
 
 <style scoped lang="scss">
